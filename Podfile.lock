@@ -1,0 +1,30 @@
+PODS:
+  - Gloss (1.1.1)
+  - ResearchKit (1.3.1)
+  - ResearchSuiteTaskBuilder (0.2.0):
+    - Gloss (~> 1.1)
+    - ResearchKit (~> 1.3)
+  - sdlrkx (0.3.0):
+    - sdlrkx/Core (= 0.3.0)
+    - sdlrkx/RSTBSupport (= 0.3.0)
+  - sdlrkx/Core (0.3.0):
+    - ResearchKit (~> 1.3.1)
+  - sdlrkx/RSTBSupport (0.3.0):
+    - Gloss (~> 1)
+    - ResearchSuiteTaskBuilder (~> 0.2.0)
+    - sdlrkx/Core
+
+DEPENDENCIES:
+  - ResearchKit (~> 1.3.1)
+  - ResearchSuiteTaskBuilder (~> 0.2)
+  - sdlrkx (~> 0.3)
+
+SPEC CHECKSUMS:
+  Gloss: 4a892694cba7387efa4102a51f86110651366b18
+  ResearchKit: badba0340dd71d1cbab4789a0bf01b26022b8f94
+  ResearchSuiteTaskBuilder: ab01cf3f618d369eeb63507da82a36ba54f04e5e
+  sdlrkx: f188b9daa27019c5fbd9c4b08b7aa87c6069191f
+
+PODFILE CHECKSUM: 5bb5e3bf170075617e9c6fd2080beaac7a18e0c9
+
+COCOAPODS: 1.1.1

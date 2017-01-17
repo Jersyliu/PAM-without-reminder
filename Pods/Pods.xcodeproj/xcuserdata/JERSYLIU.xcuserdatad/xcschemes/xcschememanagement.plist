@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Gloss.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-consent_trial_1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ResearchKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ResearchSuiteTaskBuilder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>sdlrkx.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>39C69D9B6A709F788E7F5A5E2BDCF612</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>66E0055D88E3D4244C194D65B3D6223E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7D8262EEE7404D75653A70A84BCF4DD8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C1D4965121292BC74538E6E75847487C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D899B6BF4F130B3817E930BC72A00A9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
