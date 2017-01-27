@@ -14,12 +14,18 @@
 		F11570971E29B941005EB6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11570961E29B941005EB6A9 /* Assets.xcassets */; };
 		F115709A1E29B941005EB6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11570981E29B941005EB6A9 /* LaunchScreen.storyboard */; };
 		F11570A21E29BC61005EB6A9 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11570A11E29BC61005EB6A9 /* ConsentDocument.swift */; };
-		F11570A41E29BEA9005EB6A9 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11570A31E29BEA9005EB6A9 /* ConsentTask.swift */; };
-		F11570A61E29CA18005EB6A9 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11570A51E29CA18005EB6A9 /* SurveyTask.swift */; };
-		F11570A81E29D140005EB6A9 /* RegisTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11570A71E29D140005EB6A9 /* RegisTask.swift */; };
-		F11570AA1E29DE52005EB6A9 /* LoginTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11570A91E29DE52005EB6A9 /* LoginTask.swift */; };
-		F11570AC1E29EAA4005EB6A9 /* PAMTask.json in Resources */ = {isa = PBXBuildFile; fileRef = F11570AB1E29EAA4005EB6A9 /* PAMTask.json */; };
 		F11570AE1E29F22C005EB6A9 /* signature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11570AD1E29F22C005EB6A9 /* signature.jpg */; };
+		F116DC9B1E2EBBAF0064BDAC /* LOGINStepGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116DC9A1E2EBBAF0064BDAC /* LOGINStepGenerator.swift */; };
+		F116DC9D1E2EC39C0064BDAC /* LOGINTask.json in Resources */ = {isa = PBXBuildFile; fileRef = F116DC9C1E2EC39C0064BDAC /* LOGINTask.json */; };
+		F116DC9F1E2F08C10064BDAC /* CONSENTTask.json in Resources */ = {isa = PBXBuildFile; fileRef = F116DC9E1E2F08C10064BDAC /* CONSENTTask.json */; };
+		F116DCA11E2F0AC30064BDAC /* VISUALCONSENTStepGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116DCA01E2F0AC30064BDAC /* VISUALCONSENTStepGenerator.swift */; };
+		F116DCA31E2F0AED0064BDAC /* CONSENTREVIEWStepGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116DCA21E2F0AED0064BDAC /* CONSENTREVIEWStepGenerator.swift */; };
+		F12103191E371CAA00FC61AC /* ConsentSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12103181E371CAA00FC61AC /* ConsentSample.swift */; };
+		F18701D11E30048C0097251A /* OhmageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18701D01E30048C0097251A /* OhmageManager.swift */; };
+		F18701D31E3004E30097251A /* OMHClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = F18701D21E3004E30097251A /* OMHClient.plist */; };
+		F18701D51E3005D80097251A /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18701D41E3005D80097251A /* LogManager.swift */; };
+		F18701D71E3012A90097251A /* PAMTask2.json in Resources */ = {isa = PBXBuildFile; fileRef = F18701D61E3012A90097251A /* PAMTask2.json */; };
+		F18701D91E30145D0097251A /* PAMDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18701D81E30145D0097251A /* PAMDataPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +40,18 @@
 		F11570991E29B941005EB6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F115709B1E29B941005EB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F11570A11E29BC61005EB6A9 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
-		F11570A31E29BEA9005EB6A9 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
-		F11570A51E29CA18005EB6A9 /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
-		F11570A71E29D140005EB6A9 /* RegisTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisTask.swift; sourceTree = "<group>"; };
-		F11570A91E29DE52005EB6A9 /* LoginTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTask.swift; sourceTree = "<group>"; };
-		F11570AB1E29EAA4005EB6A9 /* PAMTask.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PAMTask.json; sourceTree = "<group>"; };
 		F11570AD1E29F22C005EB6A9 /* signature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = signature.jpg; path = Assets.xcassets/AppIcon.appiconset/signature.jpg; sourceTree = "<group>"; };
+		F116DC9A1E2EBBAF0064BDAC /* LOGINStepGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOGINStepGenerator.swift; sourceTree = "<group>"; };
+		F116DC9C1E2EC39C0064BDAC /* LOGINTask.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LOGINTask.json; sourceTree = "<group>"; };
+		F116DC9E1E2F08C10064BDAC /* CONSENTTask.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CONSENTTask.json; sourceTree = "<group>"; };
+		F116DCA01E2F0AC30064BDAC /* VISUALCONSENTStepGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VISUALCONSENTStepGenerator.swift; sourceTree = "<group>"; };
+		F116DCA21E2F0AED0064BDAC /* CONSENTREVIEWStepGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CONSENTREVIEWStepGenerator.swift; sourceTree = "<group>"; };
+		F12103181E371CAA00FC61AC /* ConsentSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentSample.swift; sourceTree = "<group>"; };
+		F18701D01E30048C0097251A /* OhmageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhmageManager.swift; sourceTree = "<group>"; };
+		F18701D21E3004E30097251A /* OMHClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OMHClient.plist; sourceTree = "<group>"; };
+		F18701D41E3005D80097251A /* LogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		F18701D61E3012A90097251A /* PAMTask2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PAMTask2.json; sourceTree = "<group>"; };
+		F18701D81E30145D0097251A /* PAMDataPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAMDataPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +112,17 @@
 				F11570981E29B941005EB6A9 /* LaunchScreen.storyboard */,
 				F115709B1E29B941005EB6A9 /* Info.plist */,
 				F11570A11E29BC61005EB6A9 /* ConsentDocument.swift */,
-				F11570A31E29BEA9005EB6A9 /* ConsentTask.swift */,
-				F11570A51E29CA18005EB6A9 /* SurveyTask.swift */,
-				F11570A71E29D140005EB6A9 /* RegisTask.swift */,
-				F11570A91E29DE52005EB6A9 /* LoginTask.swift */,
-				F11570AB1E29EAA4005EB6A9 /* PAMTask.json */,
+				F116DC9A1E2EBBAF0064BDAC /* LOGINStepGenerator.swift */,
+				F116DC9C1E2EC39C0064BDAC /* LOGINTask.json */,
+				F116DC9E1E2F08C10064BDAC /* CONSENTTask.json */,
+				F116DCA01E2F0AC30064BDAC /* VISUALCONSENTStepGenerator.swift */,
+				F116DCA21E2F0AED0064BDAC /* CONSENTREVIEWStepGenerator.swift */,
+				F18701D01E30048C0097251A /* OhmageManager.swift */,
+				F18701D21E3004E30097251A /* OMHClient.plist */,
+				F18701D41E3005D80097251A /* LogManager.swift */,
+				F18701D61E3012A90097251A /* PAMTask2.json */,
+				F18701D81E30145D0097251A /* PAMDataPoint.swift */,
+				F12103181E371CAA00FC61AC /* ConsentSample.swift */,
 			);
 			path = consent_trial_1;
 			sourceTree = "<group>";
@@ -172,8 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F115709A1E29B941005EB6A9 /* LaunchScreen.storyboard in Resources */,
-				F11570AC1E29EAA4005EB6A9 /* PAMTask.json in Resources */,
+				F116DC9D1E2EC39C0064BDAC /* LOGINTask.json in Resources */,
 				F11570AE1E29F22C005EB6A9 /* signature.jpg in Resources */,
+				F18701D31E3004E30097251A /* OMHClient.plist in Resources */,
+				F116DC9F1E2F08C10064BDAC /* CONSENTTask.json in Resources */,
+				F18701D71E3012A90097251A /* PAMTask2.json in Resources */,
 				F11570971E29B941005EB6A9 /* Assets.xcassets in Resources */,
 				F11570951E29B941005EB6A9 /* Main.storyboard in Resources */,
 			);
@@ -234,13 +255,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12103191E371CAA00FC61AC /* ConsentSample.swift in Sources */,
+				F18701D51E3005D80097251A /* LogManager.swift in Sources */,
 				F11570921E29B941005EB6A9 /* ViewController.swift in Sources */,
-				F11570AA1E29DE52005EB6A9 /* LoginTask.swift in Sources */,
-				F11570A41E29BEA9005EB6A9 /* ConsentTask.swift in Sources */,
-				F11570A61E29CA18005EB6A9 /* SurveyTask.swift in Sources */,
+				F116DCA11E2F0AC30064BDAC /* VISUALCONSENTStepGenerator.swift in Sources */,
+				F116DCA31E2F0AED0064BDAC /* CONSENTREVIEWStepGenerator.swift in Sources */,
+				F18701D11E30048C0097251A /* OhmageManager.swift in Sources */,
 				F11570A21E29BC61005EB6A9 /* ConsentDocument.swift in Sources */,
 				F11570901E29B941005EB6A9 /* AppDelegate.swift in Sources */,
-				F11570A81E29D140005EB6A9 /* RegisTask.swift in Sources */,
+				F18701D91E30145D0097251A /* PAMDataPoint.swift in Sources */,
+				F116DC9B1E2EBBAF0064BDAC /* LOGINStepGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

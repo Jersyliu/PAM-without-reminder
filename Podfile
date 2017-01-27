@@ -4,7 +4,9 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'consent_trial_1' do
-  pod 'sdlrkx', '~> 0.3'
+  pod 'sdlrkx'
   pod 'ResearchKit', '~> 1.3.1'
-  pod 'ResearchSuiteTaskBuilder', '~> 0.2'
+  pod 'ResearchSuiteTaskBuilder'
+  pod 'OhmageOMHSDK'
+  pod 'OhmageOMHSDK/RKSupport'
 end

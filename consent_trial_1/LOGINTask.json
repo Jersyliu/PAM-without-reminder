@@ -1,0 +1,13 @@
+{
+    "type"    : "elementList",
+    "identifier": "LOGINTask",
+    "elements": [
+                 {
+                 "identifier": "LoginStep",
+                 "type": "LOGIN",
+                 "title": "Login Blablabla",
+                 "text": "Fill in below!",
+                 "optional": "true"
+                 }
+               ]
+}

@@ -16,16 +16,16 @@ public var ConsentDocument: ORKConsentDocument {
      This is the title of the document, displayed both for review and in
      the generated PDF.
      */
-    consentDocument.title = NSLocalizedString("Example Consent", comment: "")
+    consentDocument.title = "ConsentDocument Title Example Consent"
     
     // This is the title of the signature page in the generated document.
-    consentDocument.signaturePageTitle = NSLocalizedString("Consent", comment: "")
+    consentDocument.signaturePageTitle = "SignaturePage Title Consent"
     
     /*
      This is the line shown on the signature page of the generated document,
      just above the signatures.
      */
-    consentDocument.signaturePageContent = NSLocalizedString("I agree to participate in this research study.", comment: "")
+    consentDocument.signaturePageContent = "I agree to participate in this research study."
     
     /*
      Add the participant signature, which will be filled in during the
@@ -33,7 +33,7 @@ public var ConsentDocument: ORKConsentDocument {
      signature image or a participant name; these are collected during
      the consent review step.
      */
-    let participantSignatureTitle = NSLocalizedString("Participant", comment: "")
+    let participantSignatureTitle = "ParticipantJJJJJJ"
     let participantSignature = ORKConsentSignature(forPersonWithTitle: participantSignatureTitle, dateFormatString: nil, identifier: "ParticipantSignature")
     
     consentDocument.addSignature(participantSignature)
@@ -57,6 +57,7 @@ public var ConsentDocument: ORKConsentDocument {
     
     consentDocument.addSignature(investigatorSignature)
     */
+    
     /*
      This is the HTML content for the "Learn More" page for each consent
      section. In a real consent, this would be your content, and you would

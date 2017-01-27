@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Gloss.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OMHClient.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OhmageOMHSDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SecureQueue.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>sdlrkx.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>39C69D9B6A709F788E7F5A5E2BDCF612</key>
+		<key>0855EBAD8DDA92AFB8D9A6C3AEEBE83B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>66E0055D88E3D4244C194D65B3D6223E</key>
+		<key>08FED2EAA5AFF3DE4BE2C8A536961918</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7D8262EEE7404D75653A70A84BCF4DD8</key>
+		<key>40E7477AD67135868F5FB08136602674</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C1D4965121292BC74538E6E75847487C</key>
+		<key>848C12B9960EF23EE5BF2A57A2AFE1D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D899B6BF4F130B3817E930BC72A00A9D</key>
+		<key>86FCC1B1385746F95C27E829F359759A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC7EB34C85FE7C6054750D1180757A8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D32FE7EA3A0D33C3268717C716D3DE3E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F692EA0759DA65D55693B9B7E95BD826</key>
 		<dict>
 			<key>primary</key>
 			<true/>

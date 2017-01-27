@@ -21,44 +21,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKs-NL-UfL">
-                                <rect key="frame" x="110" y="256" width="171" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TA-P5-ZaA">
+                                <rect key="frame" x="132" y="149" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Consent Tapped"/>
+                                <state key="normal" title="Take PAM Again"/>
                                 <connections>
-                                    <action selector="consentTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tAQ-Sd-1nj"/>
+                                    <action selector="takePAMAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uGE-73-NcG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0w-hC-EAn">
-                                <rect key="frame" x="110" y="431" width="171" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bil-q1-hiH">
+                                <rect key="frame" x="160" y="264" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Survey"/>
+                                <state key="normal" title="Log Out"/>
                                 <connections>
-                                    <action selector="surveyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDE-Y2-aPN"/>
+                                    <action selector="logOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="srY-60-YjK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyW-sW-Tex">
-                                <rect key="frame" x="176" y="134" width="38" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ruk-nH-w91">
+                                <rect key="frame" x="154" y="375" width="66" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Regis"/>
+                                <state key="normal" title="Reminder"/>
                                 <connections>
-                                    <action selector="regisTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ffh-v3-XfS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lm-Ej-wpn">
-                                <rect key="frame" x="168" y="198" width="38" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login"/>
-                                <connections>
-                                    <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="liF-5H-jCw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eM5-iH-ZuZ">
-                                <rect key="frame" x="171" y="359" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="PAM"/>
-                                <connections>
-                                    <action selector="PAM:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zbm-Ai-MJj"/>
+                                    <action selector="remainder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="98F-gV-sKh"/>
                                 </connections>
                             </button>
                         </subviews>

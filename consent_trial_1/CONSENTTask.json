@@ -1,0 +1,16 @@
+{
+    "type"    : "elementList",
+    "identifier": "CONSENTTask",
+    "elements": [
+                 {
+                 "identifier": "VisualConsentStep",
+                 "type": "VISUALCONSENT"
+                 },
+                 {
+                 "identifier": "ConsentReviewStep",
+                 "type": "CONSENTREVIEW",
+                 "text": "Review Consent!",
+                 "reasonForConsent": "Consent to join study"
+                 }
+               ]
+}

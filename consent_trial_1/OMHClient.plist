@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   OMHClient.plist
+   consent_trial_1
+
+   Created by LIU ZEXI on 1/18/17.
+   Copyright (c) 2017 LIU ZEXI. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>OMHBaseURL</key>
+        <string>http://52.72.253.186/dsu</string>
+        <key>OMHClientID</key>
+        <string>edu.cornell.tech.foundry.ios.ResearchSuiteSDKExample</string>
+        <key>OMHClientSecret</key>
+        <string>nzVlBVmrSHIrxr0SW9XdWp8yjtVov2NnVu7ezA7F</string>
+        <key>username</key>
+        <string>jersy</string>
+        <key>password</key>
+        <string>password123</string>
+    </dict>
+</plist>
